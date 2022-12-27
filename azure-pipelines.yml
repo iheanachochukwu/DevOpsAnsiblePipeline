@@ -65,7 +65,6 @@ steps:
 
 - script: |
     ansible-playbook -i inv site.yml
-    ansible localhost -m azure.azcollection.azure_rm_resourcegroup -a "name=ansibleazdevops location=uksouth"
   displayName: 'Run Ansible Playbook'
   env:
     AZURE_CLIENT_ID: $(ARM_CLIENT_ID)
