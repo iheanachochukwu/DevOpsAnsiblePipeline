@@ -48,10 +48,7 @@ steps:
   inputs:
     targetType: 'inline'
     script: |
-      apt install curl -y
       curl -sL https://aka.ms/InstallAzureCLIDeb | sudo bash
-      apt-get update
-      apt-get install azure-cl
 
 # - task: AzureCLI@2
 #   displayName: 'Azure CLI'
