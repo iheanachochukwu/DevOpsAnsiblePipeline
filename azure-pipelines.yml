@@ -3,7 +3,8 @@
 
 trigger:
 - master
-
+variables:
+  SUBSCRIPTION_NAME: Atiku
 pool:
   vmImage: 'ubuntu-latest'
 
