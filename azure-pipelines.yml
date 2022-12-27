@@ -5,9 +5,9 @@ trigger:
 - master
 variables:
   SUBSCRIPTION_NAME: Atiku
-pool:
-  name: "Default"
-#   vmImage: 'ubuntu-latest'
+# pool:
+#   name: "Default"
+# #   vmImage: 'ubuntu-latest'
 
 steps:
 
