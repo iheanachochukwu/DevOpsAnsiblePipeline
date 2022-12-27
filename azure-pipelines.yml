@@ -5,8 +5,8 @@ trigger:
 - master
 variables:
   SUBSCRIPTION_NAME: Atiku
-# pool:
-#   name: "Default"
+pool:
+  name: "workload"
 # #   vmImage: 'ubuntu-latest'
 
 steps:
