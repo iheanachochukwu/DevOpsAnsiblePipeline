@@ -6,7 +6,7 @@ trigger:
 variables:
   SUBSCRIPTION_NAME: Atiku
 pool:
-  name: "Azure Pipelines"
+  name: "Default"
 #   vmImage: 'ubuntu-latest'
 
 steps:
