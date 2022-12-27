@@ -1,0 +1,11 @@
+---
+- hosts: localhost
+  connection: local
+  collections:
+    - azure.azcollection
+
+  tasks:
+  - name: Create resource group
+    azure_rm_resourcegroup:
+      name: ansibletesting
+      location: eastus
